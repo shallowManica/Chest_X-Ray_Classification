@@ -1,0 +1,29 @@
+name: Chest-X-Ray-Classification
+channels:
+  - conda-forge
+dependencies:
+  - opencv
+  - python=3.10
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - mlflow
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - scikit-image
+  - pillow
+  - ruff
+  - pytest
+  - pytorch
+  - torchvision
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
