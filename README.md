@@ -13,7 +13,7 @@ Chest X-Ray Classification (Medical Diagnosis Triage)
 
 ## 📌 Project Overview
 
-This repository contains a production-ready Deep Learning solution for classifying Chest X-Rays into **Normal**, **Pneumonia**, and **Tuberculosis** categories. Developed as a technical assessment for SickKids/Arteligence, this project prioritizes **clinical sensitivity** (Recall) over raw accuracy to ensure safety in a triage setting.
+This repository contains a production-ready Deep Learning solution for classifying Chest X-Rays into **Normal**, **Pneumonia**, and **Tuberculosis** categories. This project prioritizes **clinical sensitivity** (Recall) over raw accuracy to ensure safety in a triage setting.
 
 The solution utilizes a **DenseNet-121** architecture with a custom "Unweighted" training strategy to handle class imbalance, achieving State-of-the-Art sensitivity for Pneumonia detection.
 
